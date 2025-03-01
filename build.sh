@@ -3,6 +3,7 @@ sudo apt install bc binutils bison dwarves flex gcc git gnupg2 gzip libelf-dev l
 mkdir LFN
 cd LFN
 
+
 mkdir root
 cd root
 
@@ -27,7 +28,7 @@ ln -s usr/sbin sbin
 
 cd ..
 
-export LFN="/home/sten/LFN/root"
+export LFN="/home/sten/StensLinuxBuilder/LFN/root"
 
 git clone --depth 1 https://github.com/torvalds/linux
 cd linux
